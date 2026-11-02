@@ -19,6 +19,8 @@
   root.dataset.theme = savedTheme === 'light' ? 'light' : 'dark';
   const updateThemeButton = () => {
     const light = root.dataset.theme === 'light';
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    if (themeMeta) themeMeta.content = light ? '#f7f9f8' : '#0b100e';
     if (themeButton) {
       themeButton.setAttribute('aria-label', light ? 'Switch to dark mode' : 'Switch to light mode');
       themeButton.title = light ? 'Switch to dark mode' : 'Switch to light mode';
@@ -31,8 +33,6 @@
     root.dataset.theme = root.dataset.theme === 'light' ? 'dark' : 'light';
     try { localStorage.setItem('alilauncher-theme', root.dataset.theme); } catch {}
     updateThemeButton();
-    const themeMeta = document.querySelector('meta[name="theme-color"]');
-    if (themeMeta) themeMeta.content = root.dataset.theme === 'light' ? '#f7f9f8' : '#0b100e';
   });
   document.querySelectorAll('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
   if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
