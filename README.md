@@ -2,7 +2,7 @@
 
 Official website source for AliLauncher, created by AliHashemYT.
 
-Minecraft Java on unusual hardware. This is a lightweight, static GitHub Pages site for AliLauncher, created by AliHashemYT. It does not bundle Minecraft game files, launcher packages, or proprietary assets. The site is a static GitHub Pages project site.
+Minecraft Java on unusual hardware. This is a lightweight, static GitHub Pages site for AliLauncher, created by AliHashemYT. It does not bundle Minecraft game files, launcher packages, or proprietary assets. The site is a static GitHub Pages project site. Its development status was reviewed 21 November 2026; no launcher download is public, and no launcher package or Minecraft files are included.
 
 ## Local preview
 
@@ -43,7 +43,7 @@ The public project site is deployed from the `main` branch root at <https://alih
 - Terms of service: <https://alihashemyt.github.io/AliLauncher-Website/terms.html>
 ## Official branding asset
 
-`assets/alilauncher-icon.png` is copied from the exact original icon supplied by AliHashemYT. It is used in the top navigation, footer, homepage hero, PNG favicon, and homepage social-sharing preview. No vector recreation or AI-generated branding artwork is used. The source icon remains unchanged.
+`assets/alilauncher-icon.png` is copied from the exact original icon supplied by AliHashemYT. It is used in the top navigation, footer, homepage hero, favicon, and social-sharing previews. No vector recreation or AI-generated branding artwork is used. The source icon remains unchanged.
 
 ## Privacy implementation note
 
